@@ -1,9 +1,11 @@
     import React from 'react'
+    import Logo from '../../../src/assets/images/dossel-logo.png'
 
     function Header() {
       return (
         <div>
-          <h1>Olá, mundo!</h1>
+          <img src={Logo} alt="logo dossel" className='logo'/>
+
         </div>
       )
     }
