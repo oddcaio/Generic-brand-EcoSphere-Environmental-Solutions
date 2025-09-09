@@ -1,0 +1,7 @@
+.video{
+    display:block;
+    width: 70%;
+    height: auto;
+    max-height: clamp(400px, auto, 60vh);
+    margin: auto;
+}
