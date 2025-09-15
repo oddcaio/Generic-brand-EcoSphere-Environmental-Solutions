@@ -1,9 +1,10 @@
 import './App.css';
-import Video from '../../../src/assets/images/video.mp4'
-
+import tucano from '../../assets/images/selective-focus-shot-toucan-standing-tree-branch.jpg'
 function App() {
   return (
-    <video src={Video} autoPlay loop muted width="300" className='video'></video>
+    <div>
+        <img src={tucano} alt="Tucano" className='background'/>
+    </div>
   );
 }
 
