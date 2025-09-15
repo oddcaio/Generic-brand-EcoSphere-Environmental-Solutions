@@ -4,7 +4,6 @@
     function Header() {
       return (
         <div className='headercontainer'>
-          <img src={Logo} alt="logo dossel" className='logo'/>
         </div>
       )
     }
