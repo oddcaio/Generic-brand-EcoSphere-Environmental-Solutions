@@ -1,18 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .header {
     width: 100%;
-    height: 30vh; /* Define a altura do cabeçalho */
+    height: 30vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: relative; /* Permite usar z-index */
-    z-index: 1; /* Garante que o cabeçalho fique sobre a imagem */
-    padding: 0 20px; /* Espaçamento da esquerda e direita */
-    background-color: rgba(255, 255, 255, 0.8); /* Pode adicionar um fundo semi-transparente */
+    position: relative;
+    z-index: 1;
+    padding: 0 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: 3%;
 }
 
+.topheader{
+    display: flex;
+}
 .logo {
-    width: 45%;
-    height: auto;
+    width: auto;
+    height: 14vh;
+}
+.logoname{
+    font-family: 'Kumb Sans', sans-serif;
+    font-weight: lighter;
 }
 
 .nav a {
@@ -23,5 +35,5 @@
 }
 
 .cta {
-    color: #FF5722; /* Cor do botão de chamada para ação */
+    color: #FF5722;
 }

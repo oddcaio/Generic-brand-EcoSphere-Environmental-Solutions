@@ -6,7 +6,11 @@ import tucano from '../../assets/images/selective-focus-shot-toucan-standing-tre
 function Header() {
   return (
   <div className='header'>
-      <img src={Logo} alt='dossel' className='logo' />
+      <div className="topheader">
+         <img src={Logo} alt='dossel' className='logo' />
+         <h2 className='logoname'>Dossel</h2>
+      </div>
+
       <nav className='nav'>
         <a href='#inicio'>início</a>
         <a href='#sobre'>sobre</a>
