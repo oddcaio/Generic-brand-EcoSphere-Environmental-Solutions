@@ -1,7 +1,5 @@
-import React from 'react'
 import Logo from '../../../src/assets/images/dossel-logo.png'
 import '../header/Header.css'
-import tucano from '../../assets/images/selective-focus-shot-toucan-standing-tree-branch.jpg'
 
 function Header() {
   return (

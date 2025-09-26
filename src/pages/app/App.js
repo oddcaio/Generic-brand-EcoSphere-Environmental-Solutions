@@ -1,5 +1,5 @@
 import './App.css';
-import tucano from '../../assets/images/selective-focus-shot-toucan-standing-tree-branch.jpg';
+import tucano from '../../assets/images/tucano.jpg';
 
 function App() {
   return (
